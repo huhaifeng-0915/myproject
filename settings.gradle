@@ -6,4 +6,5 @@ include 'demo'
 include 'flowable'
 include 'flowable'
 include 'quartz'
+include 'rabbitmq'
 

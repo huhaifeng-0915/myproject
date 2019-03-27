@@ -1,0 +1,25 @@
+group 'com.hhf'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(":demo")
+    compile project(":commom")
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    //rabbitmq整合
+    compile("org.springframework.boot:spring-boot-starter-amqp")
+    //SimpMessagingTemplate 注入
+//    compile group: 'org.springframework', name: 'spring-messaging', version: '5.0.10.RELEASE'
+    //swagger
+    compile "io.springfox:springfox-swagger2:${springfoxSwagger2Version}"
+    compile "io.springfox:springfox-swagger-ui:${springfoxSwagger2Version}"
+    compile "io.springfox:springfox-petstore:${springfoxSwagger2Version}"
+
+}

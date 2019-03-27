@@ -15,6 +15,8 @@
       <module name="myproject_test" target="1.8" />
       <module name="quartz_main" target="1.8" />
       <module name="quartz_test" target="1.8" />
+      <module name="rabbitmq_main" target="1.8" />
+      <module name="rabbitmq_test" target="1.8" />
       <module name="server_main" target="1.8" />
       <module name="server_test" target="1.8" />
     </bytecodeTargetLevel>

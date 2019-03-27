@@ -19,7 +19,7 @@ logging:
         #ResultSet: DEBUG
   #path: D:\workspace\log
   #file: SpringBoot.log
-  #config: classpath:logback.xml
+  #com.hhf.config: classpath:logback.xml
 
 spring:
   jackson:
@@ -52,7 +52,7 @@ spring:
 #      maxIdle: 30
 #      minIdle: 5
 #    timeout: 1000
-#    #redis cluster config
+#    #redis cluster com.hhf.config
 #    password: 5tgb7ygv
 #    cluster.nodes: 10.186.125.235:7380,10.186.125.235:7381,10.186.125.235:7382,10.186.125.162:7380,10.186.125.162:7381,10.186.125.162:7382
 #    cluster.max-redirects: 6
@@ -79,11 +79,11 @@ spring:
 #      testOnReturn: false #归还连接时先验证连接是否有效
 #      poolPreparedStatements: true # 打开PSCache，并且指定每个连接上PSCache的大小
 #      maxPoolPreparedStatementPerConnectionSize: 20 # 打开PSCache，并且指定每个连接上PSCache的大小
-#      filters: config,stat,slf4j  # 配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙
+#      filters: com.hhf.config,stat,slf4j  # 配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙
 #      decrypt: #自定义的配置文件 druid 加密密码使用的公钥
 #        publickey: "MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAIduifpg/5512kcZHxoCNc7RIGGNPYy79bc1DQyBJ0RTahXM/mKc6d4Krp+myMfAws0GKEYdIvyzOIOoiN0r/4sCAwEAAQ=="
 #        password: "NyCbtcwLqJf/gmnrDIgsnZa92naqHYr7Ce4eY3+cKRpmBsP6rcA0Sg8kqa5J3UeD9IIG4SbHIL3JOaRyHwwAUw=="
-#      connectionProperties: druid.log.stmt.executableSql=true;druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000;config.decrypt=true;config.decrypt.key=${spring.datasource.druid.decrypt.publickey} # 通过connectProperties属性来打开mergeSql功能；慢SQL记录
+#      connectionProperties: druid.log.stmt.executableSql=true;druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000;com.hhf.config.decrypt=true;com.hhf.config.decrypt.key=${spring.datasource.druid.decrypt.publickey} # 通过connectProperties属性来打开mergeSql功能；慢SQL记录
 #      useGlobalDataSourceStat: false # 合并多个DruidDataSource的监控数据
       
   jpa:

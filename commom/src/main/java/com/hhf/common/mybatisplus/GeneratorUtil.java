@@ -23,9 +23,9 @@ public class GeneratorUtil {
      * 执行生成代码
      */
     public static void generateCode() {
-        String packageName = "com.hhf.commom";
+        String packageName = "com.hhf.rabbitmq";
         //generateByTables(packageName, "t_student", "t_city", "t_idcard");
-        generateByTables(packageName, "b_branch");
+        generateByTables(packageName, "b_mq_message_producer");
     }
 
     private static void generateByTables(String packageName, String... tableNames) {
@@ -55,7 +55,7 @@ public class GeneratorUtil {
                 .setActiveRecord(false)
                 .setAuthor("huhaifeng")
 //                .setOutputDir("/Users/fengwenyi/Workspace/file/codeGen")
-                .setOutputDir("D:/BaiduNetdiskDownload/flowable/myproject/commom/src/main/java")
+                .setOutputDir("D:/BaiduNetdiskDownload/flowable/myproject/rabbitmq/src/main/java")
                 .setFileOverride(true)
                 .setActiveRecord(false)// 不需要ActiveRecord特性的请改为false
                 .setEnableCache(false)// XML 二级缓存
@@ -63,6 +63,7 @@ public class GeneratorUtil {
                 .setBaseColumnList(true)// XML columList
                 .setKotlin(false) //是否生成 kotlin 代码
                 // 自定义文件命名，注意 %s 会自动填充表实体属性！
+                .setEntityName("%sEO")
                 .setMapperName("%sMapper")
                 .setXmlName("%sMapper")
                 .setServiceName("%sService")
@@ -74,13 +75,13 @@ public class GeneratorUtil {
                 //.setOpen(true) // 是否打开输出目录
                 ;
 //                if (!serviceNameStartWithI)
-//                    config.setServiceName("%sService");
+//                    com.hhf.config.setServiceName("%sService");
 
 
         StrategyConfig strategyConfig = new StrategyConfig()
                 .setCapitalMode(true) // 全局大写命名 ORACLE 注意
                 //.setDbColumnUnderline(true)
-                .setTablePrefix("B_")// 此处可以修改为您的表前缀(数组)
+                .setTablePrefix("b_mq_")// 此处可以修改为您的表前缀(数组)
                 .setNaming(NamingStrategy.underline_to_camel) // 表名生成策略
                 .setColumnNaming(NamingStrategy.underline_to_camel) //数据库表字段映射到实体的命名策略，未指定按照 naming 执行
                 .setInclude(tableNames)//修改替换成你需要的表名，多个表名传数组

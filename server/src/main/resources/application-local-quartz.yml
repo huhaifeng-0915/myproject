@@ -22,7 +22,7 @@ logging:
         #ResultSet: DEBUG
   #path: D:\workspace\log
   #file: SpringBoot.log
-  #config: classpath:logback.xml
+  #com.hhf.config: classpath:logback.xml
 
 spring:
   jackson:
@@ -41,6 +41,39 @@ spring:
        minIdle: 5 #最小空闲连接数
        maxWait: 3000  #获取连接最大等待时间 ms  #default -1
 
+  #rabbitmq相关配置
+  rabbitmq:
+      host: 127.0.0.1
+      port: 5672
+  #    addresses: 10.196.20.63:5672,10.196.20.64:5672,10.196.20.65:5672  #使用集群时用adresses,如果有F5或HAProxy负载均衡，把负载ip写在第一个
+      username: guest
+      password: guest
+      virtual-host: /
+      publisher-confirms: true  #是否支持消息处理完毕确认时回调处理，如果要进行消息回调，则这里必须要设置为true，消息发送方需要实现RabbitTemplate.ConfirmCallback
+      publisher-returns: true #消息未正确发送到exchage，对应的处理类需要实现RabbitTemplate.ReturnCallback
+      requested-heartbeat: 10s  #连接的心跳超时时间，0为不指定.
+      connection-timeout: 60s #连接超时时间，0表示一直等待
+      listener:
+        simple:
+          auto-startup: true #是否在启动时就启动mq，默认: true
+          acknowledge-mode: manual #auto为自动判断在消费者处理完后将消息从队列移除：正常返回则从队列移除，异常则不移除。
+          concurrency: 3 #指定最小的消费者数量.
+          max-concurrency: 10 #消费者最大线程数
+          prefetch: 1 #指定消费者一次能处理多少个消息，如果有事务的话，必须大于等于transaction数量.
+          transaction-size: 1 #指定消费者一个事务处理的消息数量，最好是小于等于prefetch的数量.
+          retry:
+            enabled: true
+            max-attempts: 5
+            initial-interval: 5s
+            max-interval: 300s
+      cache:
+        connection:
+          mode: connection  #缓存连接模式，channle表示使用一个连接来支持多个通道，connection表示每次使用,rabbitmq使用集群时，应该使用connection模式
+          size: 25 #缓存的连接数，只有在连接缓存mode为connection才使用
+        channel: #channel为一个虚拟的connection，不同事务使用
+          checkout-timeout: 5s #channel满的情况，等待一个channel的等待时间
+          size: 25  #缓存的通道的个数，超出个数时，触发checkout-timeout机制
+
   mvc:
     static-path-pattern: /**     # 静态文件请求匹配方式
   thymeleaf:
@@ -53,7 +86,7 @@ spring:
 #      maxIdle: 30
 #      minIdle: 5
 #    timeout: 1000
-#    #redis cluster config
+#    #redis cluster com.hhf.config
 #    password: 5tgb7ygv
 #    cluster.nodes: 10.186.125.235:7380,10.186.125.235:7381,10.186.125.235:7382,10.186.125.162:7380,10.186.125.162:7381,10.186.125.162:7382
 #    cluster.max-redirects: 6
@@ -80,11 +113,11 @@ spring:
 #      testOnReturn: false #归还连接时先验证连接是否有效
 #      poolPreparedStatements: true # 打开PSCache，并且指定每个连接上PSCache的大小
 #      maxPoolPreparedStatementPerConnectionSize: 20 # 打开PSCache，并且指定每个连接上PSCache的大小
-#      filters: config,stat,slf4j  # 配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙
+#      filters: com.hhf.config,stat,slf4j  # 配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙
 #      decrypt: #自定义的配置文件 druid 加密密码使用的公钥
 #        publickey: "MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAIduifpg/5512kcZHxoCNc7RIGGNPYy79bc1DQyBJ0RTahXM/mKc6d4Krp+myMfAws0GKEYdIvyzOIOoiN0r/4sCAwEAAQ=="
 #        password: "NyCbtcwLqJf/gmnrDIgsnZa92naqHYr7Ce4eY3+cKRpmBsP6rcA0Sg8kqa5J3UeD9IIG4SbHIL3JOaRyHwwAUw=="
-#      connectionProperties: druid.log.stmt.executableSql=true;druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000;config.decrypt=true;config.decrypt.key=${spring.datasource.druid.decrypt.publickey} # 通过connectProperties属性来打开mergeSql功能；慢SQL记录
+#      connectionProperties: druid.log.stmt.executableSql=true;druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000;com.hhf.config.decrypt=true;com.hhf.config.decrypt.key=${spring.datasource.druid.decrypt.publickey} # 通过connectProperties属性来打开mergeSql功能；慢SQL记录
 #      useGlobalDataSourceStat: false # 合并多个DruidDataSource的监控数据
       
   jpa:

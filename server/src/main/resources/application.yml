@@ -28,7 +28,7 @@ swagger: #swagger相关配置
 #  cache: 
 #    type: ehcache
 #    ehcache:
-#      config: classpath:/ehcache.xml
+#      com.hhf.config: classpath:/ehcache.xml
       
   #rabbitmq相关配置
 #  rabbitmq:
@@ -43,7 +43,11 @@ swagger: #swagger相关配置
 #          enabled: true     #是否开启消费者重试（为false时关闭消费者重试，这时消费端代码异常会一直重复收到消息）
 #          initial-interval:  2000  #重试间隔时间（单位毫秒）
 #        default-requeue-rejected: false   #重试次数超过上面的设置之后是否丢弃（false不丢弃时需要写相应代码将该消息加入死信队列）
-#
-#
+
+com:
+  hhf:
+    rabbitmq:
+      enabled: true # true为启动common中rabbitmq组件 本系统必须启用
+
     
    

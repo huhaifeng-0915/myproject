@@ -19,7 +19,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="demo_main" />
     <orderEntry type="module" module-name="quartz_main" />
     <orderEntry type="module" module-name="flowable_main" />
     <orderEntry type="module-library">
@@ -31,6 +30,8 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="module" module-name="rabbitmq_main" />
+    <orderEntry type="module" module-name="demo_main" />
     <orderEntry type="module" module-name="commom_main" />
     <orderEntry type="library" name="Gradle: com.baomidou:mybatis-plus-boot-starter:3.0.6" level="project" />
     <orderEntry type="library" name="Gradle: mysql:mysql-connector-java:8.0.11" level="project" />
@@ -85,6 +86,7 @@
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-thymeleaf:2.0.3.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: net.sourceforge.nekohtml:nekohtml:1.9.22" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-quartz:2.0.3.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-amqp:2.0.3.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-jdbc:2.0.3.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter:2.0.3.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:2.0.3.RELEASE" level="project" />
@@ -101,6 +103,8 @@
     <orderEntry type="library" name="Gradle: org.quartz-scheduler:quartz:2.3.0" level="project" />
     <orderEntry type="library" name="Gradle: com.zaxxer:HikariCP:2.7.9" level="project" />
     <orderEntry type="library" name="Gradle: org.thymeleaf:thymeleaf:3.0.9.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.amqp:spring-rabbit:2.0.4.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: com.rabbitmq:amqp-client:5.1.2" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-logging:2.0.3.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.2.3" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-to-slf4j:2.10.0" level="project" />
@@ -120,10 +124,13 @@
     <orderEntry type="library" name="Gradle: org.springframework:spring-aspects:5.0.7.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.aspectj:aspectjweaver:1.8.13" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-orm:5.0.7.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-messaging:5.0.7.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-jdbc:5.0.7.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-tx:5.0.7.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-beans:5.0.7.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-expression:5.0.7.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.amqp:spring-amqp:2.0.4.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.retry:spring-retry:1.2.2.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-core:5.0.7.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.aspectj:aspectjrt:1.8.13" level="project" />
     <orderEntry type="library" name="Gradle: io.swagger:swagger-annotations:1.5.20" level="project" />

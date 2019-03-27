@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hhf.myrabbitmq.mapper.SuccessConsumerMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.hhf.myrabbitmq.eo.SuccessConsumerEO">
+        <id column="CONSUMER_ID" property="consumerId" />
+    <result column="OPERATE_VERSION" property="operateVersion" />
+    <result column="CREATED_BY" property="createdBy" />
+    <result column="UPDATED_BY" property="updatedBy" />
+    <result column="UPDATED_ON" property="updatedOn" />
+    <result column="CREATED_ON" property="createdOn" />
+        <result column="PRODUCER_ID" property="producerId" />
+        <result column="RESULT" property="result" />
+        <result column="CONSUMER_TIMES" property="consumerTimes" />
+        <result column="CONSUMER_IP" property="consumerIp" />
+        <result column="QUEUE" property="queue" />
+        <result column="CONSUMER_TIME" property="consumerTime" />
+        <result column="CONCURRENCY_STATUS" property="concurrencyStatus" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        OPERATE_VERSION,
+        CREATED_BY,
+        UPDATED_BY,
+        UPDATED_ON,
+        CREATED_ON,
+        CONSUMER_ID, PRODUCER_ID, RESULT, CONSUMER_TIMES, CONSUMER_IP, QUEUE, CONSUMER_TIME, CONCURRENCY_STATUS
+    </sql>
+    <select id="selectConsumers" parameterType="com.hhf.myrabbitmq.dto.ConsumerDto"
+            resultMap="BaseResultMap">
+        select * from b_mq_success_consumer where 1 = 1
+        <if test="dto.consumerId != null and dto.consumerId != ''">
+            and consumer_id = #{dto.consumerId}
+        </if>
+        <if test="dto.queue != null and dto.queue !='' ">
+            and queue = #{dto.queue}
+        </if>
+        <if test="dto.consumerTimes != null">
+            and consumer_times = #{dto.consumerTimes}
+        </if>
+        <if test="dto.startCreateTime != null">
+            and create_time >= #{dto.startCreateTime}
+        </if>
+        <if test="dto.endCreateTime != null">
+            <![CDATA[and create_time <= #{dto.endCreateTime}]]>
+        </if>
+    </select>
+
+    <update id="lockConsumer" parameterType="java.lang.String">
+        update b_mq_success_consumer
+        set concurrency_status = '9999'
+        where consumer_id = #{consumerId}
+        and concurrency_status = '0000'
+    </update>
+
+    <update id="unlockConsumer" parameterType="java.lang.String">
+        update b_mq_success_consumer
+        set concurrency_status = '0000'
+        where consumer_id = #{consumerId}
+        and concurrency_status = '9999'
+    </update>
+</mapper>
