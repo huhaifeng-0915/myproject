@@ -85,12 +85,12 @@ public class UwTaskDetailServiceImpl extends ServiceImpl<UwTaskDetailMapper, UwT
                 person.setCreatedOn(new Date());
                 person.setCreatedBy("胡海丰测试");
                 try {
-                    for (int i=0;i<30000;i++) {
+//                    for (int i=0;i<30000;i++) {
                         AddPersonMessage addPersonMessage = new AddPersonMessage();
                         addPersonMessage.setPerson(person);
                         addPersonMessage.setBusinessNo(uwTaskDetail.getBusinessNo());
                     MessageSendUtils.send2UwAuditBack(addPersonMessage);
-                    }
+//                    }
                 } catch (Exception e) {
                     log.info("rabbitmq处理异常,异常信息为：{}",e);
                     return false;
