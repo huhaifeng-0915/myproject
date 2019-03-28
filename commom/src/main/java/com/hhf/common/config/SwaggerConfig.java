@@ -30,7 +30,7 @@ public class SwaggerConfig {
      */
     @Bean
     public Docket createRestApi() {
-        log.info("start Swagger2 com.hhf.config");
+        log.info("start Swagger2 com.hhf.learn.config");
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())//调用apiInfo方法,创建一个ApiInfo实例,里面是展示在文档页面信息内容
                 .select()

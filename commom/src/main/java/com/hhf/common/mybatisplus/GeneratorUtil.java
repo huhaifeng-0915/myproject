@@ -75,7 +75,7 @@ public class GeneratorUtil {
                 //.setOpen(true) // 是否打开输出目录
                 ;
 //                if (!serviceNameStartWithI)
-//                    com.hhf.config.setServiceName("%sService");
+//                    com.hhf.learn.config.setServiceName("%sService");
 
 
         StrategyConfig strategyConfig = new StrategyConfig()

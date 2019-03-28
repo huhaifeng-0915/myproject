@@ -1,4 +1,4 @@
-package com.hhf.direct.sender;
+package com.hhf.learn.direct.sender;
 
 import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.factory.annotation.Autowired;

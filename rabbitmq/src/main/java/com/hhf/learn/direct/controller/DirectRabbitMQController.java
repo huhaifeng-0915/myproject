@@ -1,10 +1,9 @@
-package com.hhf.direct.controller;
+package com.hhf.learn.direct.controller;
 
-import com.hhf.common.response.pojo.CommonResponse;
-import com.hhf.direct.receive.DirectHelloReceive;
-import com.hhf.direct.receive.PersonReceive;
-import com.hhf.direct.sender.PersonSender;
-import com.hhf.direct.sender.DirectHelloSender;
+import com.hhf.learn.direct.receive.DirectHelloReceive;
+import com.hhf.learn.direct.receive.PersonReceive;
+import com.hhf.learn.direct.sender.PersonSender;
+import com.hhf.learn.direct.sender.DirectHelloSender;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

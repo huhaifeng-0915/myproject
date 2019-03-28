@@ -6,6 +6,7 @@ import com.hhf.common.response.pojo.CommonResponse;
 import com.hhf.myrabbitmq.core.producer.CommonsProducerHandle;
 import com.hhf.myrabbitmq.eo.MessageProducerEO;
 import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -29,6 +30,7 @@ public class MessageProducerController {
     @Autowired
     CommonsProducerHandle commonsProducerHandle;
 
+    @ApiOperation("重发消息")
     @RequestMapping(value = "/reSendMessage", method = RequestMethod.POST)
     public CommonResponse<String> reSendProducerMessage(@RequestBody MessageProducerEO messageProducerEO) {
         boolean result = commonsProducerHandle.resendProducerMessage(String.valueOf(messageProducerEO.getProducerId()));

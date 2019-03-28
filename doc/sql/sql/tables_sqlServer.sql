@@ -14,7 +14,7 @@
 --#     [Microsoft][SQLServer 2000 Driver for JDBC]Can't start a cloned connection while in manual transaction mode.
 --#
 --#
---#     I added "SelectMethod=cursor;" to my Connection URL in the com.hhf.config file.
+--#     I added "SelectMethod=cursor;" to my Connection URL in the com.hhf.learn.config file.
 --#     It Seems to work, hopefully no side effects.
 --#
 --#		example:

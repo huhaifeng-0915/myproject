@@ -1,4 +1,4 @@
-package com.hhf.direct.config;
+package com.hhf.learn.direct.config;
 
 import org.springframework.amqp.core.Queue;
 import org.springframework.context.annotation.Bean;

@@ -1,10 +1,11 @@
-package com.hhf.config;
+package com.hhf.learn.config;
 
 import org.springframework.amqp.core.AcknowledgeMode;
 import org.springframework.amqp.rabbit.connection.ConnectionFactory;
 import org.springframework.amqp.rabbit.core.ChannelAwareMessageListener;
 import org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 
 //@Configuration
 public class RabbitMqConfig {
@@ -17,9 +18,10 @@ public class RabbitMqConfig {
 	    // 指定消费者
 	    container.setMessageListener(listener);
 	    // 指定监听的队列
-	    container.setQueueNames("queue");
+	    container.setQueueNames("queue","topic_message");
 
 	    // 设置消费者的 ack 模式为手动确认模式
+//	    container.setAcknowledgeMode(AcknowledgeMode.MANUAL);
 	    container.setAcknowledgeMode(AcknowledgeMode.MANUAL);
 
 	    container.setPrefetchCount(300);

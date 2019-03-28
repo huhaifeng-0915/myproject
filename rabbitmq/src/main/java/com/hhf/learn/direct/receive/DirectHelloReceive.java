@@ -1,4 +1,4 @@
-package com.hhf.direct.receive;
+package com.hhf.learn.direct.receive;
 
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Component;

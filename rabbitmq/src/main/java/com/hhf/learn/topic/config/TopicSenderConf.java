@@ -1,5 +1,6 @@
-package com.hhf.topic.config;
+package com.hhf.learn.topic.config;
 
+import com.hhf.learn.topic.constant.QueueAndExchangeConstants;
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;
 import org.springframework.amqp.core.Queue;
@@ -15,28 +16,28 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class TopicSenderConf {
 
-        @Bean(name="message")
+        @Bean(name= QueueAndExchangeConstants.TOPIC_MESSAEGE)
         public Queue queueMessage() {
-            return new Queue("com.hhf.topic.message");
+            return new Queue(QueueAndExchangeConstants.TOPIC_MESSAEGE);
         }
 
         @Bean(name="messages")
         public Queue queueMessages() {
-            return new Queue("com.hhf.topic.messages");
+            return new Queue("com.hhf.learn.topic.messages");
         }
 
         @Bean
         public TopicExchange exchange() {
-            return new TopicExchange("exchange");
+            return new TopicExchange(QueueAndExchangeConstants.TOPIC_EXCHANGE);
         }
 
         @Bean
-        Binding bindingExchangeMessage(@Qualifier("message") Queue queueMessage, TopicExchange exchange) {
-            return BindingBuilder.bind(queueMessage).to(exchange).with("com.hhf.topic.message");
+        Binding bindingExchangeMessage(@Qualifier(QueueAndExchangeConstants.TOPIC_MESSAEGE) Queue queueMessage, TopicExchange exchange) {
+            return BindingBuilder.bind(queueMessage).to(exchange).with(QueueAndExchangeConstants.TOPIC_EXCHANGE);
         }
 
         @Bean
         Binding bindingExchangeMessages(@Qualifier("messages") Queue queueMessages, TopicExchange exchange) {
-            return BindingBuilder.bind(queueMessages).to(exchange).with("com.hhf.topic.#");//*表示一个词,#表示零个或多个词
+            return BindingBuilder.bind(queueMessages).to(exchange).with("com.hhf.learn.topic.#");//*表示一个词,#表示零个或多个词
         }
 }

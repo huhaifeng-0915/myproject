@@ -1,4 +1,4 @@
-package com.hhf.direct.receive;
+package com.hhf.learn.direct.receive;
 
 import com.hhf.demo.mapper.PersonMapper;
 import com.hhf.demo.model.Person;

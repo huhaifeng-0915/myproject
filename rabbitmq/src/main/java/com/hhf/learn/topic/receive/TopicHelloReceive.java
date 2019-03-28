@@ -1,5 +1,6 @@
-package com.hhf.topic.receive;
+package com.hhf.learn.topic.receive;
 
+import com.hhf.learn.topic.constant.QueueAndExchangeConstants;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Component;
 
@@ -11,11 +12,11 @@ import org.springframework.stereotype.Component;
 @Component
 public class TopicHelloReceive {
 
-	@RabbitListener(queues="com.hhf.topic.message")    //监听器监听指定的Queue
+	@RabbitListener(queues= QueueAndExchangeConstants.TOPIC_MESSAEGE)    //监听器监听指定的Queue
     public void process1(String str) {    
         System.out.println("message:"+str);
     }
-    @RabbitListener(queues="com.hhf.topic.messages")    //监听器监听指定的Queue
+    @RabbitListener(queues="com.hhf.learn.topic.messages")    //监听器监听指定的Queue
     public void process2(String str) {
         System.out.println("messages:"+str);
     }
