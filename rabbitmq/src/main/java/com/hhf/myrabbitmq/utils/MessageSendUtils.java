@@ -2,8 +2,8 @@ package com.hhf.myrabbitmq.utils;
 
 
 import com.hhf.common.utils.SpringContextHolder;
-import com.hhf.demo.model.Person;
 import com.hhf.myrabbitmq.core.message.AddPersonMessage;
+import com.hhf.myrabbitmq.core.message.WebSocketMessage;
 import com.hhf.myrabbitmq.sender.Sender;
 
 /**
@@ -22,4 +22,13 @@ public class MessageSendUtils {
         return sender.send2UwAuditBack(message);
     }
 
+
+    /**
+     * 测试webSocket消息发送
+     * @param message
+     */
+    public static String sendWebSocketMessage(WebSocketMessage message) {
+        Sender sender = SpringContextHolder.getBean(Sender.class);
+        return sender.sendWebSocketMessage(message);
+    }
 }

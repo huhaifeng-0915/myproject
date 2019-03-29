@@ -13,7 +13,7 @@ public class RabbitMqConstants {
     /**
      * webSocket需要的交换机
      */
-    public static final String EXCHANGE_WEB_SOCKET = "web_socket";
+    public static final String EXCHANGE_WEB_SOCKET = "web_socket_exchange";
 
     /**
      * direct的交换机
@@ -21,9 +21,18 @@ public class RabbitMqConstants {
     public static final String EXCHANGE_DIRECT = "uw_direct";
 
     /**
-     * promptInfo的队列
+     * direct测试的交换机
      */
-    public static final String PROMPT_INFO = "PROMPT_INFO";
+    public static final String EXCHANGE_TEST_DIRECT = "uw_test_direct";
+
+    /**
+     * 测试的队列
+     */
+    public static final String TEST = "TEST";
+    /**
+     * WebSocket消息队列
+     */
+    public static final String WEB_SOCKET_QUEUE = "web_socket_queue";
 
     /**
      * 核保回写的队列

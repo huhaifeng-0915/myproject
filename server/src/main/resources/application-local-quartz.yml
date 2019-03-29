@@ -78,6 +78,7 @@ spring:
     static-path-pattern: /**     # 静态文件请求匹配方式
   thymeleaf:
     mode: HTML                   #spring boot 2.x  参数变化
+    encoding: UTF-8
 #  redis:
 #    database: 0
 #    pool:

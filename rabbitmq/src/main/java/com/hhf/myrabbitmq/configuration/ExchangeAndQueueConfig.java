@@ -29,6 +29,16 @@ public class ExchangeAndQueueConfig {
     }
 
     /**
+     * direct 测试的交换机  用来绑定一一对应的队列
+     * @return
+     */
+    @Bean(RabbitMqConstants.EXCHANGE_TEST_DIRECT)
+    DirectExchange testExchange() {
+        return new DirectExchange(RabbitMqConstants.EXCHANGE_TEST_DIRECT);
+    }
+
+
+    /**
      * direct 交换机  用来绑定一一对应的队列
      * @return
      */
@@ -36,17 +46,16 @@ public class ExchangeAndQueueConfig {
     DirectExchange directExchange() {
         return new DirectExchange(RabbitMqConstants.EXCHANGE_DIRECT);
     }
-
     /**
-     * prompt_info队列
+     * webSocket消息队列
      * <p>
-     *     用户产生消息后，除了向web_socket交换机发送外，还向direct交换机发送，根据路由发送到 prompt_info队列
+     *     用户产生消息后，除了向web_socket交换机发送外，还向direct交换机发送，根据路由发送到 webSocket队列
      * </p>
      * @return
      */
-    @Bean(RabbitMqConstants.PROMPT_INFO)
+    @Bean(RabbitMqConstants.WEB_SOCKET_QUEUE)
     Queue promptInfoQueue() {
-        return new Queue(RabbitMqConstants.PROMPT_INFO);
+        return new Queue(RabbitMqConstants.WEB_SOCKET_QUEUE);
     }
 
     /**
@@ -62,15 +71,27 @@ public class ExchangeAndQueueConfig {
     }
 
     /**
-     * 绑定  direct交换机和 prompt_info队列
+     * 核保回写队列
+     * <p>
+     *     当需要调用外部系统时，向direct交换机发送消息，根据路由发送到 uw_audit_back队列
+     * </p>
+     * @return
+     */
+    @Bean(RabbitMqConstants.TEST)
+    Queue testQueue() {
+        return new Queue(RabbitMqConstants.TEST);
+    }
+
+    /**
+     * 绑定  direct交换机和web_socket_queue队列
      * @param exchange
      * @param queue
      * @return
      */
     @Bean
-    Binding bindingPromptInfo(@Qualifier(RabbitMqConstants.EXCHANGE_DIRECT) DirectExchange exchange,
-                              @Qualifier(RabbitMqConstants.PROMPT_INFO) Queue queue) {
-        return BindingBuilder.bind(queue).to(exchange).with(RabbitMqConstants.PROMPT_INFO);
+    Binding bindingPromptInfo(@Qualifier(RabbitMqConstants.EXCHANGE_WEB_SOCKET) TopicExchange exchange,
+                              @Qualifier(RabbitMqConstants.WEB_SOCKET_QUEUE) Queue queue) {
+        return BindingBuilder.bind(queue).to(exchange).with(RabbitMqConstants.WEB_SOCKET_QUEUE);
     }
 
     /**
@@ -83,6 +104,18 @@ public class ExchangeAndQueueConfig {
     Binding bindingUwAuditBack(@Qualifier(RabbitMqConstants.EXCHANGE_DIRECT) DirectExchange exchange,
                                @Qualifier(RabbitMqConstants.ADD_PERSON) Queue queue) {
         return BindingBuilder.bind(queue).to(exchange).with(RabbitMqConstants.ADD_PERSON);
+    }
+
+    /**
+     * 绑定  direct_test交换机和 TEST队列
+     * @param exchange
+     * @param queue
+     * @return
+     */
+    @Bean
+    Binding bindingTest(@Qualifier(RabbitMqConstants.EXCHANGE_TEST_DIRECT) DirectExchange exchange,
+                               @Qualifier(RabbitMqConstants.TEST) Queue queue) {
+        return BindingBuilder.bind(queue).to(exchange).with(RabbitMqConstants.TEST);
     }
 
 

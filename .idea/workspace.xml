@@ -1,34 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f249f51a-36d5-49e7-b474-c867303ed520" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/learn/direct/listener/ConsumerListener.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/learn/topic/constant/QueueAndExchangeConstants.java" />
+    <list default="true" id="f249f51a-36d5-49e7-b474-c867303ed520" name="Default" comment="rabbitmq文档上传">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_websocket_javax_websocket_api_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_websocket_2_0_3_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_websocket_2_1_0_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_websocket_5_0_7_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/websocket.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/websocket/websocket_main.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/websocket/websocket_test.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/core/message/MyTestMessage.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/receiver/WebSocketReceiver.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/websocket/build.gradle" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/websocket/src/main/java/com/hhf/config/WebSocketConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/websocket/src/main/java/com/hhf/controller/WebSocketInfoController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/websocket/src/main/java/com/hhf/mapper/WebSocketInfoMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/websocket/src/main/java/com/hhf/model/WebSocketInfoEO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/websocket/src/main/java/com/hhf/service/WebSocketInfoService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/websocket/src/main/java/com/hhf/service/WebSocketService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/websocket/src/main/java/com/hhf/service/impl/WebSocketInfoServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/websocket/src/main/java/com/hhf/service/impl/WebSocketServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/websocket/src/main/java/com/hhf/socket/WebSocket.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/websocket/src/main/java/com/hhf/web/DemoController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/websocket/src/main/resources/mapper/WebSocketInfoMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/websocket/src/main/resources/templates/notice.html" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/flowable/flowable_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/flowable/flowable_main.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/flowable/flowable_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/flowable/flowable_test.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/quartz/quartz_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/quartz/quartz_main.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/quartz/quartz_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/quartz/quartz_test.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/rabbitmq/rabbitmq_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/rabbitmq/rabbitmq_main.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/rabbitmq/rabbitmq_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/rabbitmq/rabbitmq_test.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/server/server_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/server/server_main.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/server/server_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/server/server_test.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/commom/out/production/classes/com/hhf/common/config/SwaggerConfig.class" afterPath="$PROJECT_DIR$/commom/out/production/classes/com/hhf/common/config/SwaggerConfig.class" />
-      <change beforePath="$PROJECT_DIR$/commom/src/main/java/com/hhf/common/config/SwaggerConfig.java" afterPath="$PROJECT_DIR$/commom/src/main/java/com/hhf/common/config/SwaggerConfig.java" />
+      <change beforePath="$PROJECT_DIR$/commom/out/production/classes/com/hhf/common/mybatisplus/GeneratorUtil.class" afterPath="$PROJECT_DIR$/commom/out/production/classes/com/hhf/common/mybatisplus/GeneratorUtil.class" />
       <change beforePath="$PROJECT_DIR$/commom/src/main/java/com/hhf/common/mybatisplus/GeneratorUtil.java" afterPath="$PROJECT_DIR$/commom/src/main/java/com/hhf/common/mybatisplus/GeneratorUtil.java" />
-      <change beforePath="$PROJECT_DIR$/doc/quartz/application.yml" afterPath="$PROJECT_DIR$/doc/quartz/application.yml" />
-      <change beforePath="$PROJECT_DIR$/doc/sql/sql/tables_sqlServer.sql" afterPath="$PROJECT_DIR$/doc/sql/sql/tables_sqlServer.sql" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/config/RabbitMqConfig.java" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/learn/config/RabbitMqConfig.java" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/direct/config/DirectSenderConf.java" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/learn/direct/config/DirectSenderConf.java" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/direct/controller/DirectRabbitMQController.java" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/learn/direct/controller/DirectRabbitMQController.java" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/direct/receive/DirectHelloReceive.java" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/learn/direct/receive/DirectHelloReceive.java" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/direct/receive/PersonReceive.java" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/learn/direct/receive/PersonReceive.java" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/direct/sender/DirectHelloSender.java" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/learn/direct/sender/DirectHelloSender.java" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/direct/sender/PersonSender.java" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/learn/direct/sender/PersonSender.java" />
+      <change beforePath="$PROJECT_DIR$/flowable/out/production/classes/com/hhf/task/service/impl/UwTaskDetailServiceImpl.class" afterPath="$PROJECT_DIR$/flowable/out/production/classes/com/hhf/task/service/impl/UwTaskDetailServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/flowable/src/main/java/com/hhf/task/service/impl/UwTaskDetailServiceImpl.java" afterPath="$PROJECT_DIR$/flowable/src/main/java/com/hhf/task/service/impl/UwTaskDetailServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq/build.gradle" afterPath="$PROJECT_DIR$/rabbitmq/build.gradle" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/configuration/ExchangeAndQueueConfig.java" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/configuration/ExchangeAndQueueConfig.java" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/constants/RabbitMqConstants.java" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/constants/RabbitMqConstants.java" />
       <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/controller/MessageProducerController.java" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/controller/MessageProducerController.java" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/topic/config/TopicSenderConf.java" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/learn/topic/config/TopicSenderConf.java" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/topic/controller/TopicRabbitMQController.java" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/learn/topic/controller/TopicRabbitMQController.java" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/topic/receive/TopicHelloReceive.java" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/learn/topic/receive/TopicHelloReceive.java" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/topic/sender/TopicHelloSender.java" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/learn/topic/sender/TopicHelloSender.java" />
-      <change beforePath="$PROJECT_DIR$/server/out/production/resources/application-local.yml" afterPath="$PROJECT_DIR$/server/out/production/resources/application-local.yml" />
-      <change beforePath="$PROJECT_DIR$/server/out/production/resources/application.yml" afterPath="$PROJECT_DIR$/server/out/production/resources/application.yml" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/sender/Sender.java" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/sender/Sender.java" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/utils/MessageSendUtils.java" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/utils/MessageSendUtils.java" />
+      <change beforePath="$PROJECT_DIR$/server/build.gradle" afterPath="$PROJECT_DIR$/server/build.gradle" />
       <change beforePath="$PROJECT_DIR$/server/src/main/resources/application-local-quartz.yml" afterPath="$PROJECT_DIR$/server/src/main/resources/application-local-quartz.yml" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/resources/application-local.yml" afterPath="$PROJECT_DIR$/server/src/main/resources/application-local.yml" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/server/src/main/resources/application.yml" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -51,6 +73,9 @@
     <ignored path="$PROJECT_DIR$/rabbitmq/.gradle/" />
     <ignored path="$PROJECT_DIR$/rabbitmq/build/" />
     <ignored path="$PROJECT_DIR$/rabbitmq/out/" />
+    <ignored path="$PROJECT_DIR$/websocket/.gradle/" />
+    <ignored path="$PROJECT_DIR$/websocket/build/" />
+    <ignored path="$PROJECT_DIR$/websocket/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -118,52 +143,108 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="RabbitMqConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/learn/config/RabbitMqConfig.java">
+      <file leaf-file-name="WebSocketInfoService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/websocket/src/main/java/com/hhf/service/WebSocketInfoService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+            <state relative-caret-position="264">
+              <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConsumerListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/learn/direct/listener/ConsumerListener.java">
+      <file leaf-file-name="WebSocketInfoServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/websocket/src/main/java/com/hhf/service/impl/WebSocketInfoServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="29" lean-forward="true" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DirectHelloReceive.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/learn/direct/receive/DirectHelloReceive.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PersonReceive.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/learn/direct/receive/PersonReceive.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DirectSenderConf.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/learn/direct/config/DirectSenderConf.java">
+      <file leaf-file-name="WebSocketService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/websocket/src/main/java/com/hhf/service/WebSocketService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
-              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+              <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebSocketServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/websocket/src/main/java/com/hhf/service/impl/WebSocketServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+              <folding>
+                <element signature="e#675#676#0" expanded="true" />
+                <element signature="e#721#722#0" expanded="true" />
+                <element signature="e#868#885#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebSocket.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/websocket/src/main/java/com/hhf/socket/WebSocket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="413">
+              <caret line="48" column="16" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebSocketInfoController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/websocket/src/main/java/com/hhf/controller/WebSocketInfoController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommonResponse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/commom/src/main/java/com/hhf/common/response/pojo/CommonResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="76" column="40" lean-forward="false" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageProducerController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/controller/MessageProducerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/settings.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JobController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quartz/src/main/java/com/hhf/quartz/web/JobController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="27" lean-forward="true" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+              <folding>
+                <element signature="e#1010#1056#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -197,7 +278,10 @@
       <find>task_de</find>
       <find>cTaskExecutor</find>
       <find>ReturnCallback</find>
+      <find>start</find>
       <find>RabbitTemplate.ReturnCallback</find>
+      <find>correlationData</find>
+      <find>AddPersonReceiver</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -253,6 +337,10 @@
               <ExternalProjectPojo>
                 <option name="name" value=":server" />
                 <option name="path" value="$PROJECT_DIR$/server" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":websocket" />
+                <option name="path" value="$PROJECT_DIR$/websocket" />
               </ExternalProjectPojo>
             </list>
           </value>
@@ -1587,19 +1675,208 @@
             </list>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/websocket">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':websocket'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/websocket" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/websocket" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/websocket" />
+                <option name="name" value="cleanEclipseClasspath" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':websocket'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/websocket" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Cleans all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/websocket" />
+                <option name="name" value="cleanEclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/websocket" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':websocket'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/websocket" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':websocket'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/websocket" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/websocket" />
+                <option name="name" value="cleanEclipseProject" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/websocket" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/websocket" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles an executable jar archive containing the main classes and their dependencies." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/websocket" />
+                <option name="name" value="bootJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse classpath file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/websocket" />
+                <option name="name" value="eclipseClasspath" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/websocket" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':websocket'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/websocket" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/websocket" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':websocket'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/websocket" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/websocket" />
+                <option name="name" value="cleanEclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/websocket" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependency management declared in project ':websocket'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/websocket" />
+                <option name="name" value="dependencyManagement" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs this project as a Spring Boot application." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/websocket" />
+                <option name="name" value="bootRun" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/websocket" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':websocket'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/websocket" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/websocket" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/websocket" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/websocket" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/websocket" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':websocket'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/websocket" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/websocket" />
+                <option name="name" value="eclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/websocket" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/websocket" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse JDT settings file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/websocket" />
+                <option name="name" value="eclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/websocket" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the 'archives' artifacts into the local Maven repository." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/websocket" />
+                <option name="name" value="install" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/websocket" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse project file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/websocket" />
+                <option name="name" value="eclipseProject" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':websocket'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/websocket" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="12427596697967" />
+        <entry key="$PROJECT_DIR$" value="13981786260280" />
         <entry key="$PROJECT_DIR$/build.gradle" value="1525531743" />
         <entry key="$PROJECT_DIR$/commom/build.gradle" value="134566326" />
         <entry key="$PROJECT_DIR$/demo/build.gradle" value="202826950" />
         <entry key="$PROJECT_DIR$/flowable/build.gradle" value="1072744601" />
         <entry key="$PROJECT_DIR$/quartz/build.gradle" value="3924842020" />
-        <entry key="$PROJECT_DIR$/rabbitmq/build.gradle" value="564227135" />
-        <entry key="$PROJECT_DIR$/server/build.gradle" value="96560512" />
-        <entry key="$PROJECT_DIR$/settings.gradle" value="4181316972" />
+        <entry key="$PROJECT_DIR$/rabbitmq/build.gradle" value="2371843003" />
+        <entry key="$PROJECT_DIR$/server/build.gradle" value="1739765834" />
+        <entry key="$PROJECT_DIR$/settings.gradle" value="691036796" />
+        <entry key="$PROJECT_DIR$/websocket/build.gradle" value="2712459352" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1728,6 +2005,23 @@
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
+                  <entry key="$PROJECT_DIR$/websocket">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/2.0.3.RELEASE/27c8cd6132784dd83e8c84ad14b603a08ed317e2/spring-boot-gradle-plugin-2.0.3.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/2.0.3.RELEASE/25d1d37146bce7cc585425f635601a2ba00c0200/spring-boot-loader-tools-2.0.3.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.5.RELEASE/3589987a66349bdc10b18c6c4a5463ffd084c908/dependency-management-plugin-1.0.5.RELEASE.jar" />
+                            <option value="$MAVEN_REPOSITORY$/org/apache/commons/commons-compress/1.14/commons-compress-1.14.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.0.7.RELEASE/54b731178d81e66eca9623df772ff32718208137/spring-core-5.0.7.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.0.7.RELEASE/699016ddf454c2c167d9f84ae5777eccadf54728/spring-jcl-5.0.7.RELEASE.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$/websocket" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
                 </map>
               </option>
               <option name="name" value="myproject" />
@@ -1839,23 +2133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/service/BaseConsumerEOService.java" />
-        <option value="$PROJECT_DIR$/commom/src/main/java/com/hhf/common/utils/MybatisPlusPageUtils.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/mapper/FailConsumerMapper.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/resources/mapper/FailConsumerMapper.xml" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/service/impl/FailConsumerServiceImpl.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/mapper/HandlingConsumerMapper.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/resources/mapper/HandlingConsumerMapper.xml" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/service/impl/HandlingConsumerServiceImpl.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/service/impl/MyConsumerServiceImpl.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/mapper/SuccessConsumerMapper.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/resources/mapper/SuccessConsumerMapper.xml" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/service/impl/SuccessConsumerServiceImpl.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/core/consumer/mq/MqConsumerDurableService.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/core/consumer/mq/MqConsumerDurableServiceImpl.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/core/producer/CommonsProducerHandler.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/core/message/WebSocketMessage.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/core/consumer/local/HandleLocalConsumerServiceImpl.java" />
         <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/BeanConstants.java" />
         <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/configuration/CommonMqConfiguration.java" />
         <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/core/consumer/local/LocalConsumerServiceImpl.java" />
@@ -1868,28 +2145,45 @@
         <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/receiver/UwAuditBackReceiver.java" />
         <option value="$PROJECT_DIR$/flowable/build.gradle" />
         <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/configuration/ComponentScanConfiguration.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/build.gradle" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/sender/Sender.java" />
         <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/core/consumer/mq/ReceiveService.java" />
         <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/core/consumer/mq/BaseConsumer.java" />
         <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/eo/ConsumerEO.java" />
         <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/constantss/RabbitMqConstants.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/constants/RabbitMqConstants.java" />
         <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/core/message/UwAuditBackMessage.java" />
         <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/core/message/AddPersonMessage.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/utils/MessageSendUtils.java" />
-        <option value="$PROJECT_DIR$/flowable/src/main/java/com/hhf/task/service/impl/UwTaskDetailServiceImpl.java" />
         <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/receiver/AddPersonReceiver.java" />
         <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/learn/topic/constant/QueueAndExchangeConstants.java" />
         <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/learn/topic/config/TopicSenderConf.java" />
         <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/learn/topic/receive/TopicHelloReceive.java" />
         <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/learn/topic/sender/TopicHelloSender.java" />
         <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/learn/topic/controller/TopicRabbitMQController.java" />
-        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/controller/MessageProducerController.java" />
         <option value="$PROJECT_DIR$/server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/learn/config/RabbitMqConfig.java" />
-        <option value="$PROJECT_DIR$/server/src/main/resources/application-local-quartz.yml" />
         <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/learn/direct/listener/ConsumerListener.java" />
+        <option value="$PROJECT_DIR$/server/build.gradle" />
+        <option value="$PROJECT_DIR$/server/src/main/resources/application-local-quartz.yml" />
+        <option value="$PROJECT_DIR$/websocket/src/main/java/com/hhf/config/WebSocketConfig.java" />
+        <option value="$PROJECT_DIR$/websocket/src/main/resources/templates/notice.html" />
+        <option value="$PROJECT_DIR$/websocket/src/main/java/com/hhf/web/DemoController.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/build.gradle" />
+        <option value="$PROJECT_DIR$/commom/src/main/java/com/hhf/common/mybatisplus/GeneratorUtil.java" />
+        <option value="$PROJECT_DIR$/websocket/src/main/java/com/hhf/service/WebSocketInfoService.java" />
+        <option value="$PROJECT_DIR$/websocket/build.gradle" />
+        <option value="$PROJECT_DIR$/websocket/src/main/java/com/hhf/service/impl/WebSocketInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/websocket/src/main/java/com/hhf/model/WebSocketInfoEO.java" />
+        <option value="$PROJECT_DIR$/websocket/src/main/java/com/hhf/mapper/WebSocketInfoMapper.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/core/message/MyTestMessage.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/receiver/TestReceiver.java" />
+        <option value="$PROJECT_DIR$/flowable/src/main/java/com/hhf/task/service/impl/UwTaskDetailServiceImpl.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/utils/MessageSendUtils.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/constants/RabbitMqConstants.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/receiver/WebSocketReceiver.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/sender/Sender.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/configuration/ExchangeAndQueueConfig.java" />
+        <option value="$PROJECT_DIR$/websocket/src/main/java/com/hhf/service/WebSocketService.java" />
+        <option value="$PROJECT_DIR$/websocket/src/main/java/com/hhf/service/impl/WebSocketServiceImpl.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/controller/MessageProducerController.java" />
+        <option value="$PROJECT_DIR$/websocket/src/main/java/com/hhf/controller/WebSocketInfoController.java" />
       </list>
     </option>
   </component>
@@ -1952,7 +2246,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -1961,88 +2255,11 @@
               <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="myproject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myproject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="rabbitmq" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myproject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="rabbitmq" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myproject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="rabbitmq" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myproject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="rabbitmq" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myproject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="rabbitmq" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myproject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="rabbitmq" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hhf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myproject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="rabbitmq" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hhf" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myproject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="rabbitmq" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hhf" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="direct" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myproject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -2050,7 +2267,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -2067,25 +2284,25 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\BaiduNetdiskDownload\flowable\myproject\websocket\src\main\resources\mapper" />
       <recent name="D:\BaiduNetdiskDownload\flowable\myproject\rabbitmq\src\main\resources\mapper" />
       <recent name="D:\BaiduNetdiskDownload\flowable\myproject\doc\quartz" />
       <recent name="D:\BaiduNetdiskDownload\flowable\myproject\server\src\main\resources" />
       <recent name="D:\BaiduNetdiskDownload\flowable\myproject\doc" />
-      <recent name="D:\BaiduNetdiskDownload\flowable\myproject\quartz\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hhf.myrabbitmq.receiver" />
       <recent name="com.hhf.myrabbitmq.utils" />
       <recent name="com.hhf.myrabbitmq.sender" />
       <recent name="com.hhf.myrabbitmq" />
       <recent name="com.hhf.common.utils" />
-      <recent name="com.hhf.myrabbitmq.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\BaiduNetdiskDownload\flowable\myproject\websocket\src\main\resources" />
+      <recent name="D:\BaiduNetdiskDownload\flowable\myproject\websocket\src\main\java\com\hhf" />
       <recent name="D:\BaiduNetdiskDownload\flowable\myproject\rabbitmq\src\main\java\com\hhf\learn\direct" />
       <recent name="D:\BaiduNetdiskDownload\flowable\myproject\doc\doc" />
       <recent name="D:\BaiduNetdiskDownload\flowable\myproject\doc\sql" />
-      <recent name="D:\BaiduNetdiskDownload\flowable\myproject\rabbitmq\src\main\java\com\hhf\myrabbitmq" />
-      <recent name="D:\BaiduNetdiskDownload\flowable\myproject\rabbitmq\src\main\java\com\hhf\myrabbitmq\utils" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -2312,7 +2529,8 @@
       <workItem from="1553218748658" duration="12153000" />
       <workItem from="1553581253715" duration="9708000" />
       <workItem from="1553650296719" duration="37096000" />
-      <workItem from="1553751661250" duration="6637000" />
+      <workItem from="1553751661250" duration="21763000" />
+      <workItem from="1553822620161" duration="4080000" />
     </task>
     <task id="LOCAL-00001" summary="删除不需要的jar包">
       <created>1553161454547</created>
@@ -2356,29 +2574,35 @@
       <option name="project" value="LOCAL" />
       <updated>1553702103444</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="rabbitmq文档上传">
+      <created>1553759610078</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1553759610078</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168264000" />
+    <option name="totallyTimeSpent" value="187470000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28652322" sideWeight="0.50429183" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3250283" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15987125" sideWeight="0.49348533" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.49570817" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08380521" sideWeight="0.49570817" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.62627405" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22423556" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24915062" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -2387,7 +2611,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33798283" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24034335" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2247854" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -2398,7 +2622,11 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="BPMN Editor" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8380521" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18562232" sideWeight="0.50651467" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2487,7 +2715,7 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/flowable/src/main/java/com/hhf/task/service/impl/UwTaskDetailServiceImpl.java</url>
-          <line>69</line>
+          <line>85</line>
           <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
@@ -2529,13 +2757,13 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/sender/Sender.java</url>
-          <line>54</line>
+          <line>56</line>
           <properties />
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/flowable/src/main/java/com/hhf/task/service/impl/UwTaskDetailServiceImpl.java</url>
-          <line>80</line>
+          <line>96</line>
           <properties />
           <option name="timeStamp" value="45" />
         </line-breakpoint>
@@ -2544,12 +2772,6 @@
           <line>20</line>
           <properties />
           <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/core/producer/CommonsProducerHandler.java</url>
-          <line>38</line>
-          <properties />
-          <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/core/producer/CommonsProducerHandler.java</url>
@@ -2593,11 +2815,29 @@
           <properties />
           <option name="timeStamp" value="62" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flowable/src/main/java/com/hhf/task/service/impl/UwTaskDetailServiceImpl.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/core/producer/CommonsProducerHandler.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/core/producer/CommonsProducerHandler.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="63" />
+      <option name="time" value="77" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2606,10 +2846,371 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.amqp/spring-amqp/2.0.4.RELEASE/5f73a1f8c0c3e20631967d1b308655d9a0c05858/spring-amqp-2.0.4.RELEASE-sources.jar!/org/springframework/amqp/core/AmqpTemplate.java">
+    <entry file="file://$PROJECT_DIR$/quartz/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="97" column="39" lean-forward="false" selection-start-line="97" selection-start-column="31" selection-end-line="97" selection-end-column="39" />
+        <state relative-caret-position="230">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="16" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websocket/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/com/hhf/app/MyServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="25" column="33" lean-forward="false" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.amqp/spring-rabbit/2.0.4.RELEASE/e81a3d1557c588adbb6eccb9fb7394c6c331e1a2/spring-rabbit-2.0.4.RELEASE-sources.jar!/org/springframework/amqp/rabbit/core/RabbitTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="914" column="16" lean-forward="false" selection-start-line="914" selection-start-column="16" selection-end-line="914" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/core/consumer/local/CacheConsumerProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/core/consumer/local/HandleLocalConsumerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/core/consumer/local/HandleLocalConsumerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1269">
+          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/core/consumer/local/LocalConsumerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/core/consumer/local/LocalConsumerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2127">
+          <caret line="28" column="57" lean-forward="false" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/resources/application-local-quartz.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="51" column="50" lean-forward="false" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/BeanConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.amqp/spring-amqp/2.0.4.RELEASE/5f73a1f8c0c3e20631967d1b308655d9a0c05858/spring-amqp-2.0.4.RELEASE-sources.jar!/org/springframework/amqp/core/MessageProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="382" column="16" lean-forward="false" selection-start-line="382" selection-start-column="16" selection-end-line="382" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.1.2/amqp-client-5.1.2.jar!/com/rabbitmq/client/Channel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="135" column="9" lean-forward="false" selection-start-line="135" selection-start-column="9" selection-end-line="135" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.0.3.RELEASE/b0105bd8a48ceb60a10e0c6c80855a259f0f68b4/spring-boot-autoconfigure-2.0.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/amqp/RabbitProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/eo/MessageProducerEO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/service/impl/FailConsumerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/core/producer/CommonsProducerHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/core/consumer/ConsumerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/core/consumer/mq/ReceiveService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.0.3.RELEASE/b0105bd8a48ceb60a10e0c6c80855a259f0f68b4/spring-boot-autoconfigure-2.0.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/amqp/RabbitAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2015">
+          <caret line="88" column="13" lean-forward="false" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/configuration/ComponentScanConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-874">
+          <caret line="59" column="12" lean-forward="true" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/configuration/FNDMqProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/core/message/AddPersonMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="17" column="70" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/configuration/CommonMqConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="54" column="16" lean-forward="false" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/core/QueueMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/core/message/MyTestMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/core/producer/CommonsProducerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/core/consumer/mq/BaseConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/core/consumer/mq/MqConsumerDurableServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowable/src/main/java/com/hhf/task/service/impl/UwTaskDetailServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/receiver/WebSocketReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="57" column="31" lean-forward="false" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/core/message/WebSocketMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/core/constant/MessageConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="48" lean-forward="false" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/utils/MessageSendUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="31" column="41" lean-forward="false" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/sender/Sender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="118" column="130" lean-forward="false" selection-start-line="118" selection-start-column="130" selection-end-line="118" selection-end-column="130" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/constants/RabbitMqConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="34" column="67" lean-forward="false" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/configuration/ExchangeAndQueueConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="91" column="65" lean-forward="false" selection-start-line="91" selection-start-column="65" selection-end-line="91" selection-end-column="65" />
+          <folding>
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#911#912#0" expanded="true" />
+            <element signature="e#992#993#0" expanded="true" />
+            <element signature="e#1139#1140#0" expanded="true" />
+            <element signature="e#1215#1216#0" expanded="true" />
+            <element signature="e#1958#1959#0" expanded="true" />
+            <element signature="e#2014#2015#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/receiver/AddPersonReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/receiver/WebSocketReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="902">
+          <caret line="59" column="26" lean-forward="false" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websocket/src/main/java/com/hhf/model/WebSocketInfoEO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websocket/src/main/java/com/hhf/socket/WebSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="48" column="16" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websocket/src/main/java/com/hhf/service/WebSocketInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websocket/src/main/java/com/hhf/service/impl/WebSocketInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="29" lean-forward="true" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websocket/src/main/java/com/hhf/service/impl/WebSocketServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+          <folding>
+            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#868#885#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websocket/src/main/java/com/hhf/service/WebSocketService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commom/src/main/java/com/hhf/common/response/pojo/CommonResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="76" column="40" lean-forward="false" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -2622,409 +3223,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/controller/FailConsumerController.java">
+    <entry file="file://$PROJECT_DIR$/quartz/src/main/java/com/hhf/quartz/web/JobController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" lean-forward="true" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+          <folding>
+            <element signature="e#1010#1056#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websocket/src/main/java/com/hhf/controller/WebSocketInfoController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/controller/HandlingConsumerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/controller/SuccessConsumerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flowable/src/main/java/com/hhf/flowable/controller/FlowableController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flowable/src/main/java/com/hhf/task/controller/UwTaskController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flowable/src/main/java/com/hhf/task/controller/UwTaskDetailController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-209">
-          <caret line="32" column="7" lean-forward="false" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/hhf/demo/controller/PersonController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="34" column="22" lean-forward="false" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flowable/src/main/java/com/hhf/task/controller/UwTaskDetailHisController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="19" column="40" lean-forward="false" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/jdk1.8.0_102/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1650">
-          <caret line="110" column="19" lean-forward="false" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/controller/MessageProducerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/learn/topic/controller/TopicRabbitMQController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="43" column="26" lean-forward="false" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#963#964#0" expanded="false" />
-            <element signature="e#995#996#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/learn/topic/sender/TopicHelloSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="64" lean-forward="false" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/learn/topic/receive/TopicHelloReceive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" column="63" lean-forward="false" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/learn/topic/config/TopicSenderConf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="18" column="52" lean-forward="false" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/learn/topic/constant/QueueAndExchangeConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="63" lean-forward="false" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.amqp/spring-rabbit/2.0.4.RELEASE/e81a3d1557c588adbb6eccb9fb7394c6c331e1a2/spring-rabbit-2.0.4.RELEASE-sources.jar!/org/springframework/amqp/rabbit/listener/SimpleMessageListenerContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="336" column="16" lean-forward="false" selection-start-line="336" selection-start-column="16" selection-end-line="336" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.amqp/spring-amqp/2.0.4.RELEASE/5f73a1f8c0c3e20631967d1b308655d9a0c05858/spring-amqp-2.0.4.RELEASE-sources.jar!/org/springframework/amqp/core/AcknowledgeMode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.amqp/spring-rabbit/2.0.4.RELEASE/e81a3d1557c588adbb6eccb9fb7394c6c331e1a2/spring-rabbit-2.0.4.RELEASE-sources.jar!/org/springframework/amqp/rabbit/listener/AbstractMessageListenerContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="716" column="16" lean-forward="false" selection-start-line="716" selection-start-column="16" selection-end-line="716" selection-end-column="16" />
-          <folding>
-            <element signature="e#25115#25116#0" expanded="false" />
-            <element signature="e#25156#25157#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/resources/application-local.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2398">
-          <caret line="109" column="18" lean-forward="true" selection-start-line="109" selection-start-column="18" selection-end-line="109" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.amqp/spring-rabbit/2.0.4.RELEASE/e81a3d1557c588adbb6eccb9fb7394c6c331e1a2/spring-rabbit-2.0.4.RELEASE-sources.jar!/org/springframework/amqp/rabbit/AsyncRabbitTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="53" column="33" lean-forward="false" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/core/consumer/local/CacheConsumerProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/core/consumer/local/HandleLocalConsumerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/core/consumer/local/HandleLocalConsumerServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/core/consumer/local/LocalConsumerServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/core/consumer/local/LocalConsumerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/core/consumer/mq/MqConsumerDurableService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/core/consumer/mq/ReceiveService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/core/consumer/mq/MqConsumerDurableServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/core/producer/CommonsProducerHandle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/core/producer/CommonsProducerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="21" column="62" lean-forward="false" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/receiver/AddPersonReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/service/impl/FailConsumerServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/service/BaseConsumerEOService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/service/impl/MessageProducerServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.amqp/spring-rabbit/2.0.4.RELEASE/e81a3d1557c588adbb6eccb9fb7394c6c331e1a2/spring-rabbit-2.0.4.RELEASE-sources.jar!/org/springframework/amqp/rabbit/connection/CachingConnectionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="115" column="8" lean-forward="false" selection-start-line="115" selection-start-column="8" selection-end-line="115" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.0.3.RELEASE/b0105bd8a48ceb60a10e0c6c80855a259f0f68b4/spring-boot-autoconfigure-2.0.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/amqp/RabbitProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-977">
-          <caret line="830" column="24" lean-forward="false" selection-start-line="830" selection-start-column="24" selection-end-line="830" selection-end-column="24" />
-          <folding>
-            <element signature="e#11096#11097#0" expanded="false" />
-            <element signature="e#11123#11124#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/resources/application-local-quartz.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="68" column="12" lean-forward="true" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="43" column="30" lean-forward="true" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/service/impl/HandlingConsumerServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="23" column="67" lean-forward="true" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.amqp/spring-rabbit/2.0.4.RELEASE/e81a3d1557c588adbb6eccb9fb7394c6c331e1a2/spring-rabbit-2.0.4.RELEASE-sources.jar!/org/springframework/amqp/rabbit/core/RabbitTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="140" column="13" lean-forward="false" selection-start-line="140" selection-start-column="13" selection-end-line="140" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/sender/Sender.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="26" column="63" lean-forward="false" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="63" />
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/configuration/CommonMqConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.amqp/spring-amqp/2.0.4.RELEASE/5f73a1f8c0c3e20631967d1b308655d9a0c05858/spring-amqp-2.0.4.RELEASE-sources.jar!/org/springframework/amqp/core/MessageProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="383" column="23" lean-forward="false" selection-start-line="383" selection-start-column="23" selection-end-line="383" selection-end-column="23" />
-          <folding>
-            <element signature="e#9205#9206#0" expanded="false" />
-            <element signature="e#9235#9236#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/myrabbitmq/core/consumer/mq/BaseConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="116" column="70" lean-forward="false" selection-start-line="116" selection-start-column="70" selection-end-line="116" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/learn/direct/config/DirectSenderConf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/learn/config/RabbitMqConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/learn/direct/listener/ConsumerListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/learn/direct/receive/PersonReceive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/src/main/java/com/hhf/learn/direct/receive/DirectHelloReceive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -3081,7 +3309,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>commom_test|commom</last-edited>
+          <last-edited>rabbitmq_main|rabbitmq</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

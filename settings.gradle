@@ -7,4 +7,5 @@ include 'flowable'
 include 'flowable'
 include 'quartz'
 include 'rabbitmq'
+include 'websocket'
 

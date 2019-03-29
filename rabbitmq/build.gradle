@@ -12,6 +12,7 @@ repositories {
 dependencies {
     compile project(":demo")
     compile project(":commom")
+    compile project(":websocket")
     testCompile group: 'junit', name: 'junit', version: '4.12'
     //rabbitmq整合
     compile("org.springframework.boot:spring-boot-starter-amqp")

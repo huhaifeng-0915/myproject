@@ -2,12 +2,14 @@ package com.hhf.task.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.hhf.common.exception.BusinessException;
+import com.hhf.common.utils.JacksonUtils;
 import com.hhf.demo.model.Person;
 import com.hhf.flowable.constant.ProcessThreadLocal;
 import com.hhf.flowable.dto.CompleteTaskReqDTO;
 import com.hhf.flowable.dto.HandlerReqDTO;
 import com.hhf.flowable.service.FlowableService;
 import com.hhf.myrabbitmq.core.message.AddPersonMessage;
+import com.hhf.myrabbitmq.core.message.WebSocketMessage;
 import com.hhf.myrabbitmq.utils.MessageSendUtils;
 import com.hhf.task.dto.AuditTaskReqDTO;
 import com.hhf.task.dto.TaskAssigeeReqDTO;
@@ -60,6 +62,20 @@ public class UwTaskDetailServiceImpl extends ServiceImpl<UwTaskDetailMapper, UwT
         handlerReqDTO.setHandlerDTO(taskAssigeeReqDTO.getHandlerDTO());
         handlerReqDTO.setProcessTaskId(uwTaskDetail.getProcessTaskId());
         flowableService.setAssignee(handlerReqDTO);
+        WebSocketMessage webSocketMessage = new WebSocketMessage();
+        webSocketMessage.setMessage("您有新的任务需处理："+JacksonUtils.obj2json(uwTaskDetail));
+        webSocketMessage.setReceive(handlerReqDTO.getHandlerDTO().getHandlerNo());
+        webSocketMessage.setSender("胡海丰");
+        webSocketMessage.setReceiveBranchCode(handlerReqDTO.getHandlerDTO().getHandlerBranchCode());
+        webSocketMessage.setSenderCode(handlerReqDTO.getHandlerDTO().getHandlerNo());
+        webSocketMessage.setBusinessNo(uwTaskDetail.getAppNo());
+        webSocketMessage.setTaskCreateTime(new Date());
+        webSocketMessage.setSendTime(new Date());
+        try {
+            MessageSendUtils.sendWebSocketMessage(webSocketMessage);
+        } catch (Exception e) {
+            log.info("发送websocket消息失败，原因为:{}",e);
+        }
     }
 
     @Override

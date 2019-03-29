@@ -5,6 +5,8 @@ import com.hhf.common.exception.BusinessException;
 import com.hhf.common.utils.JacksonUtils;
 import com.hhf.myrabbitmq.constants.RabbitMqConstants;
 import com.hhf.myrabbitmq.core.message.AddPersonMessage;
+import com.hhf.myrabbitmq.core.message.MyTestMessage;
+import com.hhf.myrabbitmq.core.message.WebSocketMessage;
 import com.hhf.myrabbitmq.core.producer.CommonsProducerHandle;
 import com.hhf.myrabbitmq.utils.SequenceUtil;
 import org.slf4j.Logger;
@@ -104,6 +106,22 @@ public class Sender implements RabbitTemplate.ConfirmCallback {
             throw new BusinessException("核保回写消息发送失败:"+ e);
         }
     }
+
+    /**
+     * 测试webSocket消息
+     * @param message
+     * @return
+     */
+    public String sendWebSocketMessage(WebSocketMessage message) {
+        //持久化到数据库中
+        message.setDurable(true);
+        try {
+            return commonsProducerHandle.producerMessage(RabbitMqConstants.EXCHANGE_WEB_SOCKET, RabbitMqConstants.WEB_SOCKET_QUEUE, message);
+        } catch (Exception e) {
+            throw new BusinessException("webSocket消息发送失败:"+ e);
+        }
+    }
+
 
     public void resend2UwAuditBack(String producerId) {
         commonsProducerHandle.resendProducerMessage(producerId);

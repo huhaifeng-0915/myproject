@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        var websocket=null;
+        if('WebSocket' in window){
+            websocket=new WebSocket('ws://127.0.0.1:8090/myproject/webSocket');
+        }else{
+            alert('该浏览器不支持websocket');
+        }
+        websocket.onopen=function (ev) {
+            console.log('建立连接');
+        }
+        websocket.onclose=function (ev) {
+            console.log('连接关闭');
+        }
+        websocket.onmessage=function (ev) {
+            console.log('收到消息：'+ev.data);
+            alert("收到消息:"+ev.data);
+            //后面关闭连接
+            websocket.close();
+        }
+        window.onbeforeunload=function (ev) {
+            websocket.close();
+        }
+    </script>
+</head>
+<body>
+<div class="modal fade" id="myModal" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    WebSocket测试demo页面
+</div>
+</body>
+</html>

@@ -15,6 +15,7 @@ dependencies {
     compile project(":flowable")
     compile project(":quartz")
     compile project(":rabbitmq")
+    compile project(":websocket")
     testCompile group: 'junit', name: 'junit', version: '4.12'
     //mybatis-plus
     compile "com.baomidou:mybatis-plus-boot-starter:${mybatisPlusVersion}"
