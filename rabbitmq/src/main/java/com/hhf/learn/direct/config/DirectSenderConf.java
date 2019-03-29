@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
  * @author hhf1311843248
  *
  */
-@Configuration
+//@Configuration
 public class DirectSenderConf {
      @Bean(name = "queue")
      public Queue queue() {

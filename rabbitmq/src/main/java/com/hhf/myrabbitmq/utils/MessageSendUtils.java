@@ -31,4 +31,13 @@ public class MessageSendUtils {
         Sender sender = SpringContextHolder.getBean(Sender.class);
         return sender.sendWebSocketMessage(message);
     }
+
+    /**
+     * mytest 消息发送
+     * @param message
+     */
+    public static String sendTestMessage(String message) {
+        Sender sender = SpringContextHolder.getBean(Sender.class);
+        return sender.myTest(message);
+    }
 }

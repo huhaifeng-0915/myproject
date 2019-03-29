@@ -122,6 +122,20 @@ public class Sender implements RabbitTemplate.ConfirmCallback {
         }
     }
 
+    /**
+     * Mytest发送消息
+     * @param message
+     * @return
+     */
+    public String myTest(String message) {
+        try {
+            this.rabbitTemplate.convertAndSend(RabbitMqConstants.EXCHANGE_TEST_DIRECT, RabbitMqConstants.TEST, message);
+        } catch (Exception e) {
+            throw new BusinessException("测试发送消息失败:"+ e);
+        }
+        return "发送成功";
+    }
+
 
     public void resend2UwAuditBack(String producerId) {
         commonsProducerHandle.resendProducerMessage(producerId);

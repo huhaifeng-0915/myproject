@@ -22,7 +22,7 @@ import java.util.Date;
 
 
 /**
- * @author c_liwenbiao
+ * @author huhaifeng
  */
 @Component
 @DependsOn("commonMqConfiguration")

@@ -17,7 +17,7 @@ import org.springframework.stereotype.Component;
 
 
 /**
- * @author c_liwenbiao
+ * @author huhaifeng
  */
 @Component
 @DependsOn("commonMqConfiguration")
