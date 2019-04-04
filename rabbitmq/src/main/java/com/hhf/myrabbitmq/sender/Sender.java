@@ -22,7 +22,7 @@ import org.springframework.stereotype.Component;
  * @author: huhaifeng
  * @Date: 2018/5/2
  * @Time: 14:32
- * To change this template use File | Settings | File Templates.
+ * To change this templates use File | Settings | File Templates.
  * Description:
  */
 @Component

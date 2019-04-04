@@ -18,6 +18,10 @@
         <result column="BRANCH_CODE" property="branchCode" />
         <result column="BRANCH_NAME" property="branchName" />
         <result column="USER_STATUS" property="userStatus" />
+        <result column="REG_IP" property="regIp" />
+        <result column="LAST_LOGIN_IP" property="lastLoginIp" />
+        <result column="LAST_LOGIN_TIME" property="lastLoginTime" />
+        <result column="LOGIN_COUNT" property="loginCount" />
     </resultMap>
 
     <!-- 通用查询结果列 -->
@@ -26,7 +30,7 @@
         CREATED_BY,
         UPDATED_BY,
         UPDATED_ON,
-        ID, USER_CODE, USER_LOGIN_CODE, USER_NAME, PASSWORD, MOBILE, EMAIL, BRANCH_CODE, BRANCH_NAME, USER_STATUS
+        ID, USER_CODE, USER_LOGIN_CODE, USER_NAME, PASSWORD, MOBILE, EMAIL, BRANCH_CODE, BRANCH_NAME, USER_STATUS,REG_IP,LAST_LOGIN_IP,LAST_LOGIN_TIME,LOGIN_COUNT
     </sql>
     <select id="getDispatchUsers"
             resultType="com.hhf.common.user.dto.DispatchUserResDTO">
@@ -59,5 +63,17 @@
                 </when>
             </choose>
         <!--</if>-->
+    </select>
+
+    <select id="listByRoleId" resultMap="BaseResultMap">
+        SELECT
+        s.id,
+        s.USER_LOGIN_CODE,
+        s.USER_NAME
+        FROM
+        t_rbac_user s
+        INNER JOIN t_rbac_user_role sur ON  sur.user_id = s.id
+        WHERE
+        sur.role_id = #{roleId}
     </select>
 </mapper>

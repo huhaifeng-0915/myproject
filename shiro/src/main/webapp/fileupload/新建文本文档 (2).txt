@@ -1,0 +1,29 @@
+
+    /**
+     * 查询所有待审核任务（mybatis）
+     * @param
+     * @return
+     */
+/*     @Override
+   public Page getAllTask(String branchCode,List<NodeRole> nodeRoleList, String busiinfoFive, Integer pageNo, Integer pageSize) {
+        List<WfRuTask> result2= new ArrayList<>();
+        for (NodeRole nodeRole : nodeRoleList) {
+            WfRuTask wfrutask = new WfRuTask();
+            wfrutask.setNodeId(nodeRole.getNodeId());
+            //如果是总公司
+            if(!branchCode.equals(WorkFlowConstant.Company.RETURN_ZONG_COMPANY_CODE)){
+                wfrutask.setBusiInfoSix(branchCode);
+            }
+            wfrutask.setProcessDefinitionKey(nodeRole.getProcessDefintionKey());
+            wfrutask.setProcessDefinitionId(nodeRole.getProcessDefintionId());
+            wfrutask.setStatus("N");
+            wfrutask.setBusiInfoFive(busiinfoFive);
+            List<WfRuTask> result = wfRuTaskMapper.select(wfrutask);
+            result2.addAll(result);
+        }
+        Page page = new Page(pageNo,pageSize,result2);
+        return page;
+    }*/
+
+
+******************************************************************************************

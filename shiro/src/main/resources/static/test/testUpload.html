@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试页面1</title>
+</head>
+<body>
+<h2>文件上传实例</h2>
+<form action="/test/file/upload" method="post" enctype="multipart/form-data">
+    <p>选择文件:<input type="file" name="file"></p>
+    <p>业务号码：<input type="text" name="businessNo" value=""></p>
+    <p><input type="submit" value="提交"></p>
+</form>
+
+<hr/>
+<h2>上传多个文件 实例</h2>
+<form action="/test/file/multiUpload" method="post"  enctype="multipart/form-data">
+    <p>选择文件:<input type="file" name="file"></p>
+    <p>选择文件:<input type="file" name="file"></p>
+    <p>业务号码：<input type="text" name="businessNo" value=""></p>
+    <p><input type="submit" value="提交"></p>
+</form>
+<hr/>
+<h2>文件清单查询</h2>
+<form action="/test/file/queryFiles" method="get" >
+    <p>文件名，支持模糊查询：<input type="text" name="fileName" value=""></p>
+    <p><input type="submit" value="查询"></p>
+</form>
+<hr/>
+<h2>文件下载 实例</h2>
+<form action="/test/file/downloadFile" method="get">
+    <p>文件名：<input type="text" name="fileName" value=""></p>
+    <p><input type="submit" value="下载"></p>
+</form>
+</body>
+</html>

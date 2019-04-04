@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Login Page</title>
+    <!--<script
+            src="http://code.jquery.com/jquery-2.2.4.js"
+            integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+            crossorigin="anonymous"></script>-->
+    <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery-2.2.4.js" ></script>
+
+
+</head>
+<body onload="document.f.username.focus();">
+<h3>自定义登录页面</h3>
+<form name="f" action="/api/user/signin" method="POST">
+    <table>
+        <tbody>
+        <tr>
+            <td>User:</td>
+            <td><input type="text" name="username" value=""></td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td><input type="password" name="password"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input name="submit" type="submit" value="Login"></td>
+        </tr>
+        </tbody>
+    </table>
+</form>
+<script type="text/javascript">
+
+    $(function () {
+        loadErrorMessage();
+    });
+
+    function loadErrorMessage() {
+        $.get("/api/session/getLoginFailureMessage", function (data, status) {
+            if (data != null && data !="") {
+                alert("Data: " + data + "\nStatus: " + status);
+            }
+        });
+    }
+
+</script>
+</body>
+</html>

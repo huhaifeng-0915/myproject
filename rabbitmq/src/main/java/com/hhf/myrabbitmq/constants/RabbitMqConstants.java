@@ -5,7 +5,7 @@ package com.hhf.myrabbitmq.constants;
  * @author: PGL
  * @Date: 2018/5/2
  * @Time: 14:45
- * To change this template use File | Settings | File Templates.
+ * To change this templates use File | Settings | File Templates.
  * Description:
  */
 public class RabbitMqConstants {

@@ -15,7 +15,7 @@ import org.springframework.stereotype.Component;
 public class TopicHelloSender {
 
 //    @Autowired
-//    private AmqpTemplate template;
+//    private AmqpTemplate templates;
     @Autowired
     private RabbitTemplate template;
     

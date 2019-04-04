@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.shiro:shiro-guice:1.2.4">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-guice/1.2.4/shiro-guice-1.2.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,8 +1,8 @@
 package com.hhf.quartz.entity;
 /**
  * 任务类
- * 创建者	张志朋
- * 创建时间	2018年3月28日
+ *创建者 胡海丰
+ * 创建时间	2019年3月8日
  */
 public class QuartzEntity{
 	

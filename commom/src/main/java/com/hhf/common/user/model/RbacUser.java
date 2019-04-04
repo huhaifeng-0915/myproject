@@ -11,6 +11,8 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
 
+import java.util.Date;
+
 /**
  * <p>
  * 
@@ -67,5 +69,20 @@ public class RbacUser extends BaseVersionEntity {
     @TableField("USER_STATUS")
     private String userStatus;
 
+    @ApiModelProperty(value = "注册IP")
+    @TableField("REG_IP")
+    private String regIp;
+
+    @ApiModelProperty(value = "上次登录IP")
+    @TableField("LAST_LOGIN_IP")
+    private String lastLoginIp;
+
+    @ApiModelProperty(value = "上次登录时间")
+    @TableField("LAST_LOGIN_TIME")
+    private Date lastLoginTime;
+
+    @ApiModelProperty(value = "上次登录时间")
+    @TableField("LOGIN_COUNT")
+    private int loginCount;
 
 }

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>错误页面</title>
+    <script type="text/javascript" src="/js/jquery-2.2.4.js"></script>
+    <script>
+        var errorCode = "";
+        var errorMsg = "";
+
+        //获取url中的参数
+        function getUrlParam(name) {
+            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); //构造一个含有目标参数的正则表达式对象
+            var r = window.location.search.substr(1).match(reg);  //匹配目标参数
+            console.log(r[2]);
+            if (r != null) return decodeURIComponent(r[2]);
+            return null; //返回参数值
+        }
+
+        $(function () {
+            errorCode = getUrlParam("errorCode");
+            errorMsg = getUrlParam("errorMsg");
+
+            $("#errorCode").html("").append(errorCode);
+            $("#errorMsg").html("").append(errorMsg);
+        });
+
+    </script>
+</head>
+<body>
+<h2>错误页面</h2>
+<div id="errorCode">
+</div>
+<div id="errorMsg">
+</div>
+</body>
+</html>

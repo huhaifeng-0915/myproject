@@ -27,4 +27,6 @@ public interface RbacUserMapper extends BaseMapper<RbacUser> {
      * @return
      */
     List<DispatchUserResDTO> getDispatchUsers(@Param("branchCode") String branchCode,@Param("taskCurrentLevel") Integer taskCurrentLevel,@Param("branchMaxLevel") Integer branchMaxLevel,@Param("headMaxLevel") Integer headMaxLevel);
+
+    List<RbacUser> listByRoleId(Long roleId);
 }

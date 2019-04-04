@@ -1,0 +1,136 @@
+分公司申请人：
+
+	userId:1143385034
+	userCode：TP0R98
+	branchCode：5010100
+	role_code:aduitOne
+	roleName:一级审核员
+
+总公司申请人：
+	
+	userId:1143385037
+	userCode：#06020
+	branchCode：9010100
+	role_code:aduitOne
+	roleName:一级审核员
+
+
+分公司业务人员（一审）：
+
+	userId:1143385025
+	userCode：YA0999
+	branchCode：5010100
+	role_code:branchservicer
+	roleName:分公司业务人员
+
+分公司业务人员（一审）唯一账户：
+
+	userId:1143385035
+	userCode：C36985
+	branchCode：5010100
+	role_code:branchservicer
+	roleName:分公司业务人员
+
+
+分公司管理员（二审）：
+
+	userId:1143385032
+	userCode：131643
+	branchCode：5010100
+	role_code:branchAdmin
+	roleName:分公司管理员
+
+
+分公司管理员（二审）唯一账户：
+
+	userId:1143385039
+	userCode：521032
+	branchCode：5010100
+	role_code:branchAdmin
+	roleName:分公司管理员
+
+
+
+总公司业务人员（一审）：
+
+
+	userId:1143385033
+	userCode：#555
+	branchCode：9010100
+	role_code:headservicer
+	roleName:总公司业务人员
+
+
+总公司业务人员（一审）唯一账户：
+
+
+	userId:1143385040
+	userCode：#21187
+	branchCode：9010100
+	role_code:headservicer
+	roleName:总公司业务人员
+
+总公司管理员（终审）：
+
+	userId:1143385036
+	userCode：#14440 
+	branchCode：9010100
+	role_code:zgsAdmin
+	roleName:总公司业务人员
+
+
+总公司管理员（终审）唯一账户：
+
+	userId:1143385041
+	userCode：SH3428
+	branchCode：9010100
+	role_code:zgsAdmin
+	roleName:总公司业务人员
+******************************************************************************************
+******************************************************************************************
+
+
+status状态：
+
+	N:发出申请，无人认领
+	F:审核完成
+	D:回退（审核不通过）
+	A:某人接收后  N ----> A（N变为A）
+
+
+
+******************************************************************************************
+分公司业务人员：
+
+	userId:1143385025
+	userCode：YA0999
+	branchCode：5010100
+
+
+	userId:1143385028
+	userCode：S11121
+	branchCode：3020100
+
+分公司管理员：
+   	
+	userId:1143385025
+	userCode：YA0999
+	branchCode：5010100
+
+总公司业务人员：
+ 	
+ 	userId:1143385033
+	userCode：#555
+	branchCode：9010100
+
+总公司管理员：
+
+ 	userId:1143385033
+	userCode：#555
+	branchCode：9010100
+
+******************************************************************************************
+
+
+
+

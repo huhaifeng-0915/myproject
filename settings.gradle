@@ -8,4 +8,5 @@ include 'flowable'
 include 'quartz'
 include 'rabbitmq'
 include 'websocket'
+include 'shiro'
 

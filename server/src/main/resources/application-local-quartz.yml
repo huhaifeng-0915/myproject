@@ -27,6 +27,7 @@ logging:
 spring:
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss  #指定时间格式
+  # redis缓存服务配置
   session:
     store-type: redis
   redis:
@@ -40,6 +41,8 @@ spring:
        maxIdle: 30 #最大空闲连接数
        minIdle: 5 #最小空闲连接数
        maxWait: 3000  #获取连接最大等待时间 ms  #default -1
+    # 默认的数据过期时间，主要用于shiro权限管理
+    expire: 2592000
 
   #rabbitmq相关配置
   rabbitmq:
@@ -181,3 +184,19 @@ mybatis-plus:
     cache-enabled: false #禁用二级缓存
     jdbc-type-for-null: 'null'  #配置JdbcTypeForNull, oracle数据库必须配置
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+################################### 程序自定义配置 ###################################
+hhf:
+    druid:
+        # druid访问用户名（默认：zyd-druid）
+        username: hhf-druid
+        # druid访问密码（默认：zyd-druid）
+        password: hhf-druid
+        # druid访问地址（默认：/druid/*）
+        servletPath: /druid/*
+        # 启用重置功能（默认false）
+        resetEnable: false
+        # 白名单(非必填)， list
+        allowIps[0]:
+        # 黑名单(非必填)， list
+        denyIps[0]:

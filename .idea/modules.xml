@@ -23,6 +23,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/server.iml" filepath="$PROJECT_DIR$/.idea/modules/server.iml" group="server" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/server/server_main.iml" group="server" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/server/server_test.iml" group="server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shiro.iml" filepath="$PROJECT_DIR$/.idea/modules/shiro.iml" group="shiro" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shiro/shiro_main.iml" filepath="$PROJECT_DIR$/.idea/modules/shiro/shiro_main.iml" group="shiro" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shiro/shiro_test.iml" filepath="$PROJECT_DIR$/.idea/modules/shiro/shiro_test.iml" group="shiro" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/websocket.iml" filepath="$PROJECT_DIR$/.idea/modules/websocket.iml" group="websocket" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/websocket/websocket_main.iml" filepath="$PROJECT_DIR$/.idea/modules/websocket/websocket_main.iml" group="websocket" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/websocket/websocket_test.iml" filepath="$PROJECT_DIR$/.idea/modules/websocket/websocket_test.iml" group="websocket" />

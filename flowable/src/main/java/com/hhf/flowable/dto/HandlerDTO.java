@@ -12,7 +12,7 @@ import java.io.Serializable;
  * @author: huhaifeng
  * @Date: 2018/9/30
  * @Time: 14:20
- * To change this template use File | Settings | File Templates.
+ * To change this templates use File | Settings | File Templates.
  * Description:
  */
 @Data

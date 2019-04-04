@@ -11,8 +11,6 @@ import org.springframework.boot.ApplicationRunner;
 import org.springframework.stereotype.Component;
 /**
  * 初始化一个测试Demo任务
- * 创建者 科帮网
- * 创建时间	2018年4月3日
  */
 @Component
 public class TaskRunner implements ApplicationRunner{

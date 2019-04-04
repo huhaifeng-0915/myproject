@@ -19,6 +19,8 @@
       <module name="rabbitmq_test" target="1.8" />
       <module name="server_main" target="1.8" />
       <module name="server_test" target="1.8" />
+      <module name="shiro_main" target="1.8" />
+      <module name="shiro_test" target="1.8" />
       <module name="websocket_main" target="1.8" />
       <module name="websocket_test" target="1.8" />
     </bytecodeTargetLevel>

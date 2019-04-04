@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
  * @author: PGL
  * @Date: 2018/10/9
  * @Time: 10:14
- * To change this template use File | Settings | File Templates.
+ * To change this templates use File | Settings | File Templates.
  * Description:
  */
 @Configuration

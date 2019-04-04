@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Configuration;
  * @author: PGL
  * @Date: 2018/5/2
  * @Time: 13:52
- * To change this template use File | Settings | File Templates.
+ * To change this templates use File | Settings | File Templates.
  * Description:
  */
 @Configuration
